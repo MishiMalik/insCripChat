@@ -1,0 +1,200 @@
+.f-12 {
+  font-size: 12px; }
+
+.f-14 {
+  font-size: 14px; }
+
+.f-16 {
+  font-size: 16px; }
+
+.f-18 {
+  font-size: 18px; }
+
+.f-20 {
+  font-size: 20px; }
+
+.f-22 {
+  font-size: 22px; }
+
+.f-24 {
+  font-size: 24px; }
+
+.f-26 {
+  font-size: 26px; }
+
+.f-28 {
+  font-size: 28px; }
+
+.f-30 {
+  font-size: 30px; }
+
+.f-32 {
+  font-size: 32px; }
+
+.f-34 {
+  font-size: 34px; }
+
+.f-36 {
+  font-size: 36px; }
+
+.f-38 {
+  font-size: 38px; }
+
+.f-40 {
+  font-size: 40px; }
+
+.f-42 {
+  font-size: 42px; }
+
+.f-44 {
+  font-size: 44px; }
+
+body {
+  font-family: 'Poppins', sans-serif;
+  padding: 0px;
+  margin: 0px; }
+
+.sign-body {
+  background-color: #F7F7F7; }
+
+.w-60 {
+  width: 60%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .w-60 .sign-img {
+    height: 100%; }
+    @media only screen and (max-width: 1200px) {
+      .w-60 .sign-img {
+        height: auto; } }
+    @media only screen and (max-width: 991px) {
+      .w-60 .sign-img {
+        display: none; } }
+  @media only screen and (max-width: 1200px) {
+    .w-60 {
+      width: 50%; } }
+  @media only screen and (max-width: 991px) {
+    .w-60 {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      height: fit-content !important;
+      width: 100%;
+      padding: 15px 0px; } }
+
+.w-40 {
+  width: 40%;
+  padding: 30px 40px 30px 15px; }
+  @media only screen and (max-width: 1200px) {
+    .w-40 {
+      width: 50%; } }
+  @media only screen and (max-width: 991px) {
+    .w-40 {
+      width: 100%; } }
+  @media only screen and (max-width: 991px) {
+    .w-40 {
+      justify-content: flex-start;
+      height: fit-content !important;
+      padding: 0px 15px; } }
+
+@media only screen and (min-width: 1600px) {
+  .sign-content {
+    width: 500px !important;
+    margin: 0px auto; } }
+
+.sign-heading {
+  font-family: 'Ubuntu', sans-serif;
+  color: #2F791C;
+  font-size: 35px;
+  font-weight: 700; }
+  @media only screen and (max-width: 991px) {
+    .sign-heading {
+      display: none; } }
+
+.sign-input {
+  background-color: white;
+  border: 1px solid #AAA5A5;
+  box-shadow: none !important;
+  padding: 10px 15px;
+  width: 100%;
+  border-radius: 7px;
+  font-size: 16px; }
+  .sign-input:active, .sign-input:focus {
+    outline: none;
+    border: 1px solid #2F791C; }
+
+.logo {
+  height: 50px;
+  width: auto;
+  display: none; }
+  @media only screen and (max-width: 991px) {
+    .logo {
+      display: block; } }
+
+.btn {
+  background-color: #2F791C;
+  padding: 8px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  border: 2px solid #2F791C;
+  border-radius: 7px; }
+  .btn:hover {
+    color: #2F791C;
+    border: 2px solid #2F791C;
+    background-color: white;
+    font-weight: 600; }
+
+.btn-blank {
+  background-color: white;
+  padding: 8px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #2F791C;
+  border: 2px solid #2F791C;
+  border-radius: 7px; }
+  .btn-blank:hover {
+    color: white;
+    border: 2px solid #2F791C;
+    background-color: #2F791C;
+    font-weight: 600; }
+
+.or-tag {
+  font-size: 16px;
+  color: #AAA5A5;
+  position: relative;
+  text-align: center;
+  z-index: 10; }
+
+.line {
+  width: 80%;
+  height: 5px;
+  background-color: #AAA5A5;
+  border-radius: 100%; }
+
+.verification-message {
+  position: fixed;
+  top: 30px;
+  left: calc(50% - 230px);
+  color: white;
+  background-color: #000000b6;
+  padding: 10px 14px;
+  font-size: 16px;
+  font-weight: 500 !important;
+  border-radius: 7px;
+  display: none; }
+  @media only screen and (max-width: 500px) {
+    .verification-message {
+      left: 0 !important;
+      text-align: center; } }
+
+.sign-form {
+  min-height: 100vh; }
+
+.link {
+  color: #2F791C;
+  font-size: 13px;
+  font-weight: 500 !important; }
