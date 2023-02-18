@@ -251,3 +251,32 @@ body{
 }
 
 
+// ==============================btns
+.fixed-btns{
+    position: fixed;
+    top: 30%;
+    right: -133px;
+    transition: all .5s;
+    &:hover{
+        right: 0px;
+    }
+    button{
+        background-color: $primary;
+        padding: 4px 10px;
+        border-radius: 2px 0px 0px 2px;
+        color: white;
+          font-size: 18px;
+          display: flex;
+          align-items: center;
+         border: none;
+         width: 100%;
+         border: 2px solid transparent;
+         &:hover{
+            border: 2px solid $brown;
+         }
+         img{
+            height: 25px;
+            margin-right: 10px !important;
+         }
+    }
+}

@@ -295,6 +295,30 @@ body {
       color: #2F791C !important;
       white-space: normal; } }
 
+.fixed-btns {
+  position: fixed;
+  top: 30%;
+  right: -133px;
+  transition: all .5s; }
+  .fixed-btns:hover {
+    right: 0px; }
+  .fixed-btns button {
+    background-color: #2F791C;
+    padding: 4px 10px;
+    border-radius: 2px 0px 0px 2px;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    border: none;
+    width: 100%;
+    border: 2px solid transparent; }
+    .fixed-btns button:hover {
+      border: 2px solid #864920; }
+    .fixed-btns button img {
+      height: 25px;
+      margin-right: 10px !important; }
+
 .sign-form {
   min-height: 100vh; }
 
