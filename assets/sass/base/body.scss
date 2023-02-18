@@ -257,6 +257,9 @@ body{
     top: 30%;
     right: -135px;
     transition: all .5s;
+    @media only screen and (max-width:767px){
+        top: 70%;
+    }
     &:hover{
         right: 0px;
     }
