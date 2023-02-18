@@ -1,12 +1,17 @@
 
 
-$(".sign-up").click(function () {
+$(".successfull-btn").click(function () {
     $(".verification-message").css("display", "block");
     setTimeout(function () {
         $(".verification-message").css("display", "none");
     }, 2000);
 });
-
+$(".successfull-btn-delete").click(function () {
+    $(".verification-message-delete").css("display", "block");
+    setTimeout(function () {
+        $(".verification-message-delete").css("display", "none");
+    }, 2000);
+});
 // ====================================video play/pause
 var vid = document.getElementById("video");
 function playVid() {

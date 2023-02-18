@@ -592,3 +592,49 @@ body {
   .doc-img img {
     height: 100%;
     width: 100%; }
+
+.verification-message-delete {
+  position: fixed;
+  top: 30px;
+  left: calc(50% - 230px);
+  color: white;
+  background-color: #000000b6;
+  padding: 10px 14px;
+  font-size: 16px;
+  font-weight: 500 !important;
+  border-radius: 7px;
+  display: none; }
+  @media only screen and (max-width: 500px) {
+    .verification-message-delete {
+      left: 0 !important;
+      text-align: center; } }
+
+.btn-close {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  color: white !important;
+  top: -10px;
+  right: -10px;
+  background-image: none !important;
+  background-color: #2F791C;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1 !important;
+  padding-top: 7px !important; }
+
+.modal-dialog {
+  position: relative; }
+
+.message-popup {
+  position: relative; }
+  .message-popup button {
+    top: -20px;
+    right: -20px;
+    z-index: 100; }
+
+.modal-dialog-scrollable .modal-content {
+  overflow: visible !important; }
