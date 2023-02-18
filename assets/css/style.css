@@ -302,7 +302,7 @@ body {
   transition: all .5s; }
   @media only screen and (max-width: 767px) {
     .fixed-btns {
-      top: 70%; } }
+      top: 60%; } }
   .fixed-btns:hover {
     right: 0px; }
   .fixed-btns button {
