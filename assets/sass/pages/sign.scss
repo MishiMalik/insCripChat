@@ -1,0 +1,161 @@
+.sign-form{
+    min-height: 100vh;
+   
+}
+.link{
+    color: $primary;
+    font-size: 13px;
+    font-weight: 500 !important;
+}
+.sign-body{
+    background-color: $grey-cream;
+}
+
+.w-60{
+    width: 60%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .sign-img{
+        height: 100%;
+       
+        @media only screen and (max-width:1200px){
+            height:auto;
+        }
+        @media only screen and (max-width:991px){
+       display: none;
+        }
+    }
+    @media only screen and (max-width:1200px){
+        width: 50%;
+    }
+    @media only screen and (max-width:991px){
+        position: relative;
+        display: flex;
+    justify-content: center;
+    height: fit-content !important;
+    width: 100%;
+    padding: 15px 0px;
+    }
+    
+}
+.w-40{
+    width:40%;
+    padding: 30px 40px 30px 15px;
+    @media only screen and (max-width:1200px){
+        width: 50%;
+    }
+    @media only screen and (max-width:991px){
+        width: 100%;
+    }
+    @media only screen and (max-width:991px){
+       justify-content: flex-start;
+       height: fit-content !important;
+       padding:0px 15px;
+    }
+   
+}
+.sign-content{
+    @media only screen and (min-width:1600px){
+        width: 500px !important;
+        margin: 0px auto;
+    }
+}
+.sign-heading{
+    font-family: 'Ubuntu', sans-serif;
+    color: $primary;
+    font-size: 35px;
+    font-weight: 700;
+    @media only screen and (max-width:991px){
+       display: none;
+     }
+}
+.sign-input{
+    background-color: white;
+    border: 1px solid $light-grey;
+    box-shadow: none !important;
+    padding: 10px 15px;
+    width: 100%;
+    border-radius: 7px;
+    font-size: 16px;
+
+    &:active,
+    &:focus{
+        outline: none;
+        border: 1px solid $primary;
+    }
+}
+.logo{
+    height: 50px;
+    width: auto;
+    display: none;
+    @media only screen and (max-width:991px){
+        display: block;
+      }
+}
+.btn{
+    background-color: $primary;
+    padding: 8px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    border: 2px solid $primary;
+    border-radius: 7px;
+
+    &:hover{
+        color: $primary;
+        border: 2px solid $primary;
+        background-color: white;
+        font-weight: 600;
+    }
+}
+
+.btn-blank{
+    background-color: white;
+    padding: 8px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: $primary;
+    border: 2px solid $primary;
+    border-radius: 7px;
+
+    &:hover{
+        color: white;
+        border: 2px solid $primary;
+        background-color: $primary;
+        font-weight: 600;
+    }
+}
+.or-tag{
+    font-size: 16px;
+    color: $light-grey;
+    position: relative;
+    text-align: center;
+    z-index: 10;
+}
+.line{
+    width: 80%;
+    height: 5px;
+    background-color: $light-grey;
+    border-radius: 100%;
+}
+.verification-message{
+    position: fixed;
+    top: 30px;
+    left: calc(50% - 230px);
+    color: white;
+  background-color: #000000b6;
+  padding: 10px 14px;
+  font-size: 16px;
+  font-weight: 500 !important;
+  border-radius: 7px;
+  display: none;
+
+  @media only screen and (max-width:500px){
+    left: 0 !important;
+    text-align: center;
+  }
+}

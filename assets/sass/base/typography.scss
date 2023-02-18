@@ -1,7 +1,9 @@
 $primary:#2F791C;
+$primary-light:#76C00D;
 $light-grey:#AAA5A5;
 $grey-cream:#F7F7F7;
-
+$text-grey:#707070;
+$brown:#864920;
 .f-12{
     font-size: 12px;
 }
@@ -52,4 +54,37 @@ $grey-cream:#F7F7F7;
 }
 .f-44{
     font-size: 44px;
+}
+
+
+
+// ======================headings
+.main-heading{
+    font-size: 30px;
+    font-weight: 500;
+    color: $primary;
+    text-align: center;
+    @media only screen and (max-width:767px){
+        font-size: 25px;
+     }
+}
+.second-heading{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(34, 34, 34);
+    @media only screen and (max-width:500px){
+       font-size: 16px;
+       font-weight: 500;
+    }
+}
+
+.ellipsis-1{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.no-decoration{
+    text-decoration: none;
+    color: rgb(34, 34, 34);
 }
