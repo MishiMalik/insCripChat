@@ -298,7 +298,7 @@ body {
 .fixed-btns {
   position: fixed;
   top: 30%;
-  right: -133px;
+  right: -135px;
   transition: all .5s; }
   .fixed-btns:hover {
     right: 0px; }
