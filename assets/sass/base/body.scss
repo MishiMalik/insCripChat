@@ -274,6 +274,7 @@ body{
          border: none;
          width: 100%;
          border: 2px solid transparent;
+         min-width: 180px;
          &:hover{
             border: 2px solid $brown;
          }

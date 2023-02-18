@@ -460,14 +460,18 @@
 
         </div>
         <div class="fixed-btns">
-            <button class="mb-2 " type="button" data-bs-toggle="modal" data-bs-target="#addPeer"><img
+            <button class="mb-2 " type="button" data-bs-toggle="modal" data-bs-target="#createGroup"><img
+                src="assets/images/add-group.png" alt=""> Create Group</button>
+        <button type="button" data-bs-toggle="modal" data-bs-target="#Groups"><img
+                src="assets/images/group.png" alt="">Groups</button>
+            <!-- <button class="mb-2 " type="button" data-bs-toggle="modal" data-bs-target="#addPeer"><img
                     src="assets/images/user (1).png" alt="">Add Peer</button>
             <button class="mb-2" type="button" data-bs-toggle="modal" data-bs-target="#deletePeer"><img
                     src="assets/images/user (2).png" alt="">Remove Peer</button>
             <button class="mb-2 " type="button" data-bs-toggle="modal" data-bs-target="#createGroup"><img
                     src="assets/images/add-group.png" alt=""> Create Group</button>
             <button type="button" data-bs-toggle="modal" data-bs-target="#deleteGroup"><img
-                    src="assets/images/del-group.png" alt="">Delete Group</button>
+                    src="assets/images/del-group.png" alt="">Delete Group</button> -->
         </div>
     </main>
     <div class="verification-message">
@@ -475,6 +479,107 @@
     </div>
     <div class="verification-message-delete">
         Peers have been deleted Successfully!
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="Groups" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog  modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content ">
+                <div class="modal-header text-center">
+                    <h5 class="modal-title text-center" id="exampleModalLabel">All Groups</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i
+                            class="bi bi-x-lg"></i></button>
+                </div>
+                <div class="modal-body">
+                    <a href="" class="no-decoration">
+                        <div class="chat-notification mb-2">
+                            <div class="chat-notification-img">
+                                <img src="assets/images/group.jpg" alt="">
+                            </div>
+                            <div class="chat-notification-text  " style="width: 82%;">
+                                <div class="d-flex justify-content-between">
+                                    <p class="name mb-0 pb-0">The Incredibles</p>
+                                    <p class="date pb-0 mb-0">10 Sec</p>
+                                </div>
+                                <div class="message-text">
+                                    <p class="mb-0 pb-0 ">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                                        itaque at asperiores, et odio deserunt facere doloremque
+                                        recusandae tempore repudiandae?</p>
+                                    <div class="message-number ms-2">15</div>
+                                </div>
+    
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="no-decoration">
+                        <div class="chat-notification mb-2">
+                            <div class="chat-notification-img">
+                                <img src="assets/images/group.jpg" alt="">
+                            </div>
+                            <div class="chat-notification-text  " style="width: 82%;">
+                                <div class="d-flex justify-content-between">
+                                    <p class="name mb-0 pb-0">The Incredibles</p>
+                                    <p class="date pb-0 mb-0">10 Sec</p>
+                                </div>
+                                <div class="message-text">
+                                    <p class="mb-0 pb-0 ">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                                        itaque at asperiores, et odio deserunt facere doloremque
+                                        recusandae tempore repudiandae?</p>
+                                    <div class="message-number ms-2">15</div>
+                                </div>
+    
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="no-decoration">
+                        <div class="chat-notification mb-2">
+                            <div class="chat-notification-img">
+                                <img src="assets/images/group.jpg" alt="">
+                            </div>
+                            <div class="chat-notification-text  " style="width: 82%;">
+                                <div class="d-flex justify-content-between">
+                                    <p class="name mb-0 pb-0">The Incredibles</p>
+                                    <p class="date pb-0 mb-0">10 Sec</p>
+                                </div>
+                                <div class="message-text">
+                                    <p class="mb-0 pb-0 ">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                                        itaque at asperiores, et odio deserunt facere doloremque
+                                        recusandae tempore repudiandae?</p>
+                                    <div class="message-number ms-2">15</div>
+                                </div>
+    
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="no-decoration">
+                        <div class="chat-notification mb-2">
+                            <div class="chat-notification-img">
+                                <img src="assets/images/group.jpg" alt="">
+                            </div>
+                            <div class="chat-notification-text  " style="width: 82%;">
+                                <div class="d-flex justify-content-between">
+                                    <p class="name mb-0 pb-0">The Incredibles</p>
+                                    <p class="date pb-0 mb-0">10 Sec</p>
+                                </div>
+                                <div class="message-text">
+                                    <p class="mb-0 pb-0 ">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                                        itaque at asperiores, et odio deserunt facere doloremque
+                                        recusandae tempore repudiandae?</p>
+                                </div>
+    
+                            </div>
+                        </div>
+                    </a>
+                    
+                    
+                  
+                </div>
+          
+            </div>
+        </div>
     </div>
     <!-- Modal -->
     <div class="modal fade" id="addPeer" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -868,7 +973,7 @@
             </div>
         </div>
     </div>
-      <!-- Modal -->
+    <!-- Modal -->
       <div class="modal fade" id="deleteGroup" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog  modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content ">
