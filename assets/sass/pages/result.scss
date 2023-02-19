@@ -1,0 +1,86 @@
+.search-heading{
+    font-size: 20px;
+    font-weight: 500;
+    @media only screen and (max-width:500px){
+        font-size: 14px;
+        font-weight: 500;
+        }
+}
+.search-details{
+    font-size: 14px;
+    font-weight: 500;
+    @media only screen and (max-width:500px){
+        font-size: 12px;
+        font-weight: 500;
+        }
+}
+
+.play-btn-div-search{
+    background-color: $brown;
+    padding: 10px 15px 10px 30px;
+    border-radius: 30px;
+    position: absolute;
+    top: calc(45% - 15px);
+    left: calc(50% - 45px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid white;
+    @media only screen and (max-width:500px){
+        padding: 5px 8px 5px 18px;
+        border: 2px solid white;
+        top: calc(45% - 15px);
+    left: calc(50% - 25px);
+        }
+}
+.play-btn-search{
+    height: 20px;
+    width: 20px;
+    border: 0;
+    background: transparent;
+    box-sizing: border-box;
+    width: 0;
+
+    border-color: transparent transparent transparent rgba(255, 255, 255, 0.903);
+    transition: 100ms all ease;
+    cursor: pointer;
+    
+
+    border-style: solid;
+    border-width: 10px 5px 10px 20px;
+
+
+    @media only screen and (max-width:500px){
+        height: 10px;
+    width: 10px;
+        border-width: 7px 5px 7px 10px;
+        }
+}
+.pause-btn-div-search{
+    background-color: transparent;
+    padding: 15px 20px 15px 0px;
+    border-radius: 20px;
+    position: absolute;
+    top: calc(45% - 25px);
+    left: calc(50% - 35px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 7px solid transparent;
+    display: none;
+}
+.pause-btn-search {
+    position: absolute;
+    top: calc(45% - 5px);
+    left: calc(50% - 5px);
+    ;
+    height: 40px;
+    width: 50px;
+    cursor: pointer;
+    
+    border-color: transparent transparent transparent rgba(255, 255, 255, 0.803);
+    transition: 100ms all ease;
+    cursor: pointer;
+    border-style: double;
+    border-width: 0px 0 0px 40px;
+}
