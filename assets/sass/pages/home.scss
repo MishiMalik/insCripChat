@@ -9,6 +9,7 @@
         inset 0 0 .5rem var(--primary),
         0 0 .4rem var(--primary),
         inset 0 0 .5rem var(--primary);
+        height: 100% !important;
 }
 
 .main-video-div {
@@ -204,4 +205,12 @@
 .modal-dialog-scrollable .modal-content{
     overflow: visible !important;
 
+}
+
+.thumb{
+    margin-top: -5px;
+    color: #838EAB;
+    &:hover{
+        fill: $primary;
+     }
 }

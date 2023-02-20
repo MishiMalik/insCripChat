@@ -1,5 +1,10 @@
 
+// ===============================================reply conversation
+$(".reply-btn").click(function(){
+    $(".comment-input").removeClass("reply-input");
+  });
 
+// ==============================================messages notificatiob popups
 $(".successfull-btn").click(function () {
     $(".verification-message").css("display", "block");
     setTimeout(function () {
