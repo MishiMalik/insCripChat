@@ -935,11 +935,6 @@ body {
 #imageName {
   color: black; }
 
-.row:after, .row:before {
-  content: " ";
-  display: table;
-  clear: both; }
-
 .span6 {
   float: left;
   width: 48%;
@@ -957,3 +952,49 @@ body {
 
 .emojionearea-button {
   opacity: 1 !important; }
+
+.setting-dp {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  object-fit: cover;
+  object-position: center; }
+
+.btn-file {
+  position: relative;
+  overflow: hidden; }
+
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  background: white;
+  cursor: inherit;
+  display: block; }
+
+.img-zone {
+  background-color: #F2FFF9;
+  border: 2px dashed #F7F7F7;
+  border-radius: 5px;
+  padding: 20px; }
+
+.img-zone h2 {
+  margin-top: 0; }
+
+.progress, #img-preview {
+  margin-top: 15px; }
+
+.progress-bar {
+  background-color: #2F791C; }
+
+.thumbnail img {
+  height: 150px;
+  width: auto;
+  margin: 10px; }
