@@ -269,7 +269,7 @@
                 <div class="col-lg-8   mx-auto">
                     <div class=" main-video-col">
                         <div class="main-video-div">
-                            <video width="100%" class="main-video" id="video">
+                            <video controls width="100%" class="main-video" id="video">
                                 <source src="assets/images/video/Download the Best Free Nature Videos.mp4"
                                     type="video/mp4">
 
@@ -1318,7 +1318,15 @@
      $('#divOutside').click(function () {
                 $('.emojionearea-button').click()
             })
-            
+                    // ==================================upload
+let input = document.getElementById("inputTag");
+let imageName = document.getElementById("imageName")
+
+input.addEventListener("change", ()=>{
+    let inputImage = document.querySelector("input[type=file]").files[0];
+
+    imageName.innerText = inputImage.name;
+})
             
 });
     </script>
