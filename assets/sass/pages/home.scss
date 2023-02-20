@@ -151,6 +151,23 @@
         width: 100%;
     }
 }
+.verification-message-left{
+    position: fixed;
+    top: 30px;
+    left: calc(50% - 230px);
+    color: white;
+  background-color: #000000b6;
+  padding: 10px 14px;
+  font-size: 16px;
+  font-weight: 500 !important;
+  border-radius: 7px;
+  display: none;
+
+  @media only screen and (max-width:500px){
+    left: 0 !important;
+    text-align: center;
+  }
+}
 .verification-message-delete{
     position: fixed;
     top: 30px;

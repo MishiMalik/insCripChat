@@ -1,4 +1,36 @@
+$(document).ready(function() {
+	$("#emojionearea1").emojioneArea({
+  	
+		pickerPosition: "right",
+    tonesStyle: "bullet",
+		events: {
+         	keyup: function (editor, event) {d
+           		console.log(editor.html());
+           		console.log(this.getText());
+        	}
+    	}
+	});
+  
+     $('#divOutside').click(function () {
+                $('.emojionearea-button').click()
+            })
+            
+            
+});
 
+$('#lala').click(function () {
+alert($("#emojionearea1").val());
+ $("#nnnnn").append($("#emojionearea1").val());
+})
+// ==================================upload
+let input = document.getElementById("inputTag");
+let imageName = document.getElementById("imageName")
+
+input.addEventListener("change", ()=>{
+    let inputImage = document.querySelector("input[type=file]").files[0];
+
+    imageName.innerText = inputImage.name;
+})
 // ===============================================reply conversation
 $(".reply-btn").click(function(){
     $(".comment-input").removeClass("reply-input");
@@ -15,6 +47,12 @@ $(".successfull-btn-delete").click(function () {
     $(".verification-message-delete").css("display", "block");
     setTimeout(function () {
         $(".verification-message-delete").css("display", "none");
+    }, 2000);
+});
+$(".successfull-btn-left").click(function () {
+    $(".verification-message-left").css("display", "block");
+    setTimeout(function () {
+        $(".verification-message-left").css("display", "none");
     }, 2000);
 });
 // ====================================video play/pause
