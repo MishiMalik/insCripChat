@@ -71,7 +71,7 @@
                     </div>
                     <form >
                             <div class="comment-input">
-                                <input type="text" class="w-100" placeholder="Comment">
+                                <input type="text" class="w-100" placeholder="Search">
                               <i class="bi bi-search"></i>
                             </div>
                     </form>
@@ -236,7 +236,8 @@
             <div class="col-lg-9 chat-peer-messages">
                 <div class="chat-peer-messages--box">
                     <div class="message-header">
-                        <h1 class="m-0 p-0">Family chat</h1>
+                        <i class="bi bi-arrow-left f-22 me-2"></i>
+                        <h1 class="m-0 p-0 d-flex align-items-center">Family chat</h1>
                         <div class="date ">
                             <p>10 Feb, 2023</p>
                         </div>
@@ -313,10 +314,27 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
    <script>
-    $(".chat").on("click",function(){
+    
+    window.addEventListener("resize", function() {
+    if (window.matchMedia("(max-width: 500px)").matches) {
+        $(".chat").on("click",function(){
         $(".chat-peer-side").css("display","none");
         $(".chat-peer-messages--box").css("display","block");
+        $(".bi-arrow-left").css("display","block");
     })
+
+    $(".bi-arrow-left").on("click",function(){
+        $(".chat-peer-side").css("display","block");
+        $(".chat-peer-messages--box").css("display","none");
+    })
+    } else {
+        $(".chat").on("click",function(){
+        $(".chat-peer-side").css("display","block");
+        $(".chat-peer-messages--box").css("display","block");
+        $(".bi-arrow-left").css("display","none")
+    })
+    }
+  })
    </script>
 
 
