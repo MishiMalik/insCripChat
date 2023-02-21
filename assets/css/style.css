@@ -1199,6 +1199,11 @@ body {
     height: calc(100vh - 213px);
     overflow-y: scroll;
     border-left: 2px solid #F7F7F7; }
+    .chat-peer-messages--box .message-body::-webkit-scrollbar {
+      width: 10px; }
+    .chat-peer-messages--box .message-body::-webkit-scrollbar-thumb {
+      background-color: #E6EBF1;
+      border-radius: 10px; }
     .chat-peer-messages--box .message-body .message-img {
       height: 35px;
       width: 35px;

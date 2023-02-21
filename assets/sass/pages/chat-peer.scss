@@ -209,7 +209,15 @@
      height: calc(100vh - 213px);
     overflow-y: scroll;
     border-left: 2px solid $grey-cream;
-  
+    &::-webkit-scrollbar {
+        width: 10px;
+      }
+     
+       
+      &::-webkit-scrollbar-thumb {
+        background-color: $grey-bg;
+        border-radius: 10px;
+      }
     .message-img{
         height: 35px;
         width: 35px;
