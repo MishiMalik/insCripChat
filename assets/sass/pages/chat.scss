@@ -24,6 +24,32 @@
         box-shadow: none;
     }
 }
+.comment-input{
+    position: relative;
+
+    .bi-search{
+        font-size:17px;
+        color: $text-grey;
+        position: absolute;
+        top: 7px;
+        right: 10px;
+    }
+}
+.comment-input input{
+    background-color: $grey-cream;
+    border: none;
+    width: 100%;
+    border: 1px solid $grey-bg;
+    padding: 8px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+
+    &:active,
+    &:focus{
+        outline: none;
+        box-shadow: none;
+    }
+}
 .reply-box{
     max-height: 300px;
     overflow-y:auto;
