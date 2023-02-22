@@ -255,3 +255,11 @@
     padding: 30px 0px;
     background-color: $grey-cream;
 }
+
+#toolbar {
+    align-items: center;
+    background-color: $grey-cream !important;
+    color: $light-grey;
+    display: flex;
+    padding: 0 16px;
+}

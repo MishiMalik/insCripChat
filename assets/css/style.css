@@ -719,6 +719,13 @@ body {
   padding: 30px 0px;
   background-color: #F7F7F7; }
 
+#toolbar {
+  align-items: center;
+  background-color: #F7F7F7 !important;
+  color: #AAA5A5;
+  display: flex;
+  padding: 0 16px; }
+
 .search-heading {
   font-size: 20px;
   font-weight: 500; }
