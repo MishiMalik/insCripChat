@@ -700,6 +700,25 @@ body {
   .thumb:hover {
     fill: #2F791C; }
 
+.contact-icon {
+  position: fixed;
+  bottom: 30px;
+  left: 40px;
+  background-color: #2F791C;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%; }
+  .contact-icon a i {
+    font-size: 30px;
+    color: white; }
+
+.contact-form {
+  padding: 30px 0px;
+  background-color: #F7F7F7; }
+
 .search-heading {
   font-size: 20px;
   font-weight: 500; }
