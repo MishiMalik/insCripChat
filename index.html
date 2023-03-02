@@ -40,11 +40,17 @@
                             <ul class="child">
                                 <div class="up-arrow"></div>
                                 <li><a href="upload.html">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="me-2 bi bi-person-up" viewBox="0 0 16 16">
-                                        <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm.354-5.854 1.5 1.5a.5.5 0 0 1-.708.708L13 11.707V14.5a.5.5 0 0 1-1 0v-2.793l-.646.647a.5.5 0 0 1-.708-.708l1.5-1.5a.5.5 0 0 1 .708 0ZM11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path>
-                                        <path d="M8.256 14a4.474 4.474 0 0 1-.229-1.004H3c.001-.246.154-.986.832-1.664C4.484 10.68 5.711 10 8 10c.26 0 .507.009.74.025.226-.341.496-.65.804-.918C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4s1 1 1 1h5.256Z"></path>
-                                      </svg>Upload</a></li>
-                                <li><a href="profile-setting.html"><i class="bi bi-people me-2 f-20"></i>Profile</a></li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                            fill="currentColor" class="me-2 bi bi-person-up" viewBox="0 0 16 16">
+                                            <path
+                                                d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm.354-5.854 1.5 1.5a.5.5 0 0 1-.708.708L13 11.707V14.5a.5.5 0 0 1-1 0v-2.793l-.646.647a.5.5 0 0 1-.708-.708l1.5-1.5a.5.5 0 0 1 .708 0ZM11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z">
+                                            </path>
+                                            <path
+                                                d="M8.256 14a4.474 4.474 0 0 1-.229-1.004H3c.001-.246.154-.986.832-1.664C4.484 10.68 5.711 10 8 10c.26 0 .507.009.74.025.226-.341.496-.65.804-.918C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4s1 1 1 1h5.256Z">
+                                            </path>
+                                        </svg>Upload</a></li>
+                                <li><a href="profile-setting.html"><i class="bi bi-people me-2 f-20"></i>Profile</a>
+                                </li>
                                 <li><a href="sign-in.html"><i class="bi bi-box-arrow-left me-2 f-20"></i>LogOut</a></li>
 
 
@@ -241,7 +247,7 @@
             <div class="col-lg-11 mx-auto">
                 <div class="row">
                     <div class="col-lg-12 mb-4 main-video-col">
-                        <div class="main-video-div">
+                        <!-- <div class="main-video-div">
                             <video controls width="100%" class="main-video" id="video">
                                 <source src="assets/images/video/Download the Best Free Nature Videos.mp4"
                                     type="video/mp4">
@@ -255,15 +261,30 @@
                                 <div class="pause-btn">
                                 </div>
                             </div>
+                        </div> -->
+                        <div class="main-img-full w-100">
+                            <img src="assets/images/w1.jfif" alt="" class="w-100">
+                            <div class="menu-icon">
+                                <div class="dropdown ">
+                                    <button type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        <i class="bi bi-three-dots-vertical text-white"></i>
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <li class="text-center p-0"><a
+                                                class="dropdown-item text-center w-100 p-0">Delete</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
                         </div>
-                        <div class="d-flex justify-content-between px-1">
+                        <div class="d-flex justify-content-between px-1 ">
                             <h2 class="second-heading py-1 ellipsis-1">Parabolas in Symmetry </h2>
                             <h2 class="second-heading py-1 ellipsis-1">30K Views</h2>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-10 col-12 mx-auto mb-3 ">
-                        <a href="chat.html" class="no-decoration">
-                            <div class="main-video-div">
+                            <!-- <div class="main-video-div">
                                 <video width="100%" class="main-video" id="video2">
                                     <source src="assets/images/video/Download the Best Free Nature Videos_2.mp4"
                                         type="video/mp4">
@@ -276,139 +297,31 @@
                                     <div class="pause-btn2">
                                     </div>
                                 </div>
-                            </div>
-                            <div class="d-flex justify-content-between align-items-center px-1 mb-2">
-                                <h2 class="f-14 w-500  ellipsis-1 pt-0 mt-0">Parabolas in Symmetry </h2>
-                                <h2 class="f-12 w-500  pb-0 pt-0 mt-0 ellipsis-1" >306K Views</h2>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-10 col-12 mx-auto mb-3 ">
-                        <a href="chat.html" class="no-decoration">
-                            <div class="main-video-div">
-                                <video width="100%" class="main-video" id="video2">
-                                    <source src="assets/images/video/Download the Best Free Nature Videos_3.mp4"
-                                        type="video/mp4">
-                                </video>
-                                <div class="play-btn-div2">
-                                    <div class="play-btn2">
-                                    </div>
-                                </div>
-                                <div class="pause-btn-div2">
-                                    <div class="pause-btn2">
+                            </div> -->
+                            <div class="main-img w-100">
+                                <a href="chat.html" class="no-decoration">
+                                    <img src="assets/images/8.jfif" alt="" class="w-100">
+                                </a>
+                                <div class="menu-icon">
+                                    <div class="dropdown ">
+                                        <button type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            <i class="bi bi-three-dots-vertical text-white"></i>
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                                            <li class="text-center p-0"><a
+                                                    class="dropdown-item text-center w-100 p-0">Delete</a></li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
-                            <div class="d-flex justify-content-between align-items-center px-1 mb-2">
+                            <div class="d-flex justify-content-between align-items-center px-1 mb-2 mt-2">
                                 <h2 class="f-14 w-500  ellipsis-1 pt-0 mt-0">Parabolas in Symmetry </h2>
                                 <h2 class="f-12 w-500  pb-0 pt-0 mt-0 ellipsis-1">306K Views</h2>
                             </div>
-                        </a>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-10 col-12 mx-auto mb-3 ">
-                        <a href="chat.html" class="no-decoration">
-                            <div class="main-video-div">
-                                <video width="100%" class="main-video" id="video2">
-                                    <source src="assets/images/video/Download the Best Free Nature Videos_4.mp4"
-                                        type="video/mp4">
-                                </video>
-                                <div class="play-btn-div2">
-                                    <div class="play-btn2">
-                                    </div>
-                                </div>
-                                <div class="pause-btn-div2">
-                                    <div class="pause-btn2">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="d-flex justify-content-between align-items-center px-1 mb-2">
-                                <h2 class="f-14 w-500  ellipsis-1 pt-0 mt-0">Parabolas in Symmetry </h2>
-                                <h2 class="f-12 w-500  pb-0 pt-0 mt-0 ellipsis-1">306K Views</h2>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-10 col-12 mx-auto mb-3">
-                        <a href="document.html" class="no-decoration">
-                            <div class="doc-img ">
-                                <img src="assets/images/adobe pdf 1.png" alt="" class="">
-                            </div>
-                            <div class="d-flex justify-content-between align-items-center px-1 mb-2 pt-1">
-                                <h2 class="f-14 w-500 py-1 ellipsis-1">Parabolas in Symmetry </h2>
-                                <h2 class="f-12 w-500 ellipsis-1">306K Views</h2>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-10 col-12 mx-auto mb-3">
-                        <a href="document.html" class="no-decoration">
-                            <div class="doc-img ">
-                                <img src="assets/images/adobe pdf 1.png" alt="" class="">
-                            </div>
-                            <div class="d-flex justify-content-between align-items-center px-1 mb-2 pt-1">
-                                <h2 class="f-14 w-500 py-1 ellipsis-1">Parabolas in Symmetry </h2>
-                                <h2 class="f-12 w-500 ellipsis-1">306K Views</h2>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-10 col-12 mx-auto mb-3">
-                        <a href="document.html" class="no-decoration">
-                            <div class="doc-img ">
-                                <img src="assets/images/adobe pdf 1.png" alt="" class="">
-                            </div>
-                            <div class="d-flex justify-content-between align-items-center px-1 mb-2 pt-1">
-                                <h2 class="f-14 w-500 py-1 ellipsis-1">Parabolas in Symmetry </h2>
-                                <h2 class="f-12 w-500 ellipsis-1">306K Views</h2>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-10 col-12 mx-auto mb-3 ">
-                        <a href="chat.html" class="no-decoration">
-                            <div class="main-video-div">
-                                <video width="100%" class="main-video" id="video2">
-                                    <source src="assets/images/video/Download the Best Free Nature Videos_5.mp4"
-                                        type="video/mp4">
-                                </video>
-                                <div class="play-btn-div2">
-                                    <div class="play-btn2">
-                                    </div>
-                                </div>
-                                <div class="pause-btn-div2">
-                                    <div class="pause-btn2">
-                                    </div>
-                                </div>
-                            </div>
-                             <div class="d-flex justify-content-between align-items-center px-1 mb-2">
-                                <h2 class="f-14 w-500  ellipsis-1 pt-0 mt-0">Parabolas in Symmetry </h2>
-                                <h2 class="f-12 w-500  pb-0 pt-0 mt-0 ellipsis-1" >306K Views</h2>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-10 col-12 mx-auto mb-3 ">
-                        <a href="chat.html" class="no-decoration">
-                            <div class="main-video-div">
-                                <video width="100%" class="main-video" id="video2">
-                                    <source src="assets/images/video/Download the Best Free Nature Videos_6.mp4"
-                                        type="video/mp4">
-                                </video>
-                                <div class="play-btn-div2">
-                                    <div class="play-btn2">
-                                    </div>
-                                </div>
-                                <div class="pause-btn-div2">
-                                    <div class="pause-btn2">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="d-flex justify-content-between align-items-center px-1 mb-2">
-                                <h2 class="f-14 w-500  ellipsis-1 pt-0 mt-0">Parabolas in Symmetry </h2>
-                                <h2 class="f-12 w-500  pb-0 pt-0 mt-0 ellipsis-1" >306K Views</h2>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-10 col-12 mx-auto mb-3 ">
-                        <a href="chat.html" class="no-decoration">
-                            <div class="main-video-div">
+                            <!-- <div class="main-video-div">
                                 <video width="100%" class="main-video" id="video2">
                                     <source src="assets/images/video/Download the Best Free Nature Videos_2.mp4"
                                         type="video/mp4">
@@ -421,46 +334,330 @@
                                     <div class="pause-btn2">
                                     </div>
                                 </div>
+                            </div> -->
+                            <div class="main-img w-100">
+                                <a href="chat.html" class="no-decoration">
+                                    <img src="assets/images/10.jfif" alt="" class="w-100">
+                                </a>
+                                <div class="menu-icon">
+                                    <div class="dropdown ">
+                                        <button type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            <i class="bi bi-three-dots-vertical text-white"></i>
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                                            <li class="text-center p-0"><a
+                                                    class="dropdown-item text-center w-100 p-0">Delete</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center px-1 mb-2 mt-2">
+                                <h2 class="f-14 w-500  ellipsis-1 pt-0 mt-0">Parabolas in Symmetry </h2>
+                                <h2 class="f-12 w-500  pb-0 pt-0 mt-0 ellipsis-1">306K Views</h2>
+                            </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-10 col-12 mx-auto mb-3 ">
+                            <!-- <div class="main-video-div">
+                                <video width="100%" class="main-video" id="video2">
+                                    <source src="assets/images/video/Download the Best Free Nature Videos_2.mp4"
+                                        type="video/mp4">
+                                </video>
+                                <div class="play-btn-div2">
+                                    <div class="play-btn2">
+                                    </div>
+                                </div>
+                                <div class="pause-btn-div2">
+                                    <div class="pause-btn2">
+                                    </div>
+                                </div>
+                            </div> -->
+                            <div class="main-img w-100">
+                                <a href="chat.html" class="no-decoration">
+                                    <img src="assets/images/9.jfif" alt="" class="w-100">
+                                </a>
+                                <div class="menu-icon">
+                                    <div class="dropdown ">
+                                        <button type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            <i class="bi bi-three-dots-vertical text-white"></i>
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                                            <li class="text-center p-0"><a
+                                                    class="dropdown-item text-center w-100 p-0">Delete</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center px-1 mb-2 mt-2">
+                                <h2 class="f-14 w-500  ellipsis-1 pt-0 mt-0">Parabolas in Symmetry </h2>
+                                <h2 class="f-12 w-500  pb-0 pt-0 mt-0 ellipsis-1">306K Views</h2>
+                            </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-10 col-12 mx-auto mb-3">
+                        <div class="doc-img">
+                            <a href="document.html" class="no-decoration">
+                                <img src="assets/images/adobe pdf 1.png" alt="" class="">
+                            </a>
+                            <div class="menu-icon">
+                                <div class="dropdown ">
+                                    <button type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        <i class="bi bi-three-dots-vertical text-dark"></i>
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                                        <li class="text-center p-0"><a
+                                                class="dropdown-item text-center w-100 p-0">Delete</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center px-1 mb-2 pt-1">
+                            <h2 class="f-14 w-500 py-1 ellipsis-1">Parabolas in Symmetry </h2>
+                            <h2 class="f-12 w-500 ellipsis-1">306K Views</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-10 col-12 mx-auto mb-3">
+                        <div class="doc-img">
+                            <a href="document.html" class="no-decoration">
+                                <img src="assets/images/adobe pdf 1.png" alt="" class="">
+                            </a>
+                            <div class="menu-icon">
+                                <div class="dropdown ">
+                                    <button type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        <i class="bi bi-three-dots-vertical text-dark"></i>
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                                        <li class="text-center p-0"><a
+                                                class="dropdown-item text-center w-100 p-0">Delete</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center px-1 mb-2 pt-1">
+                            <h2 class="f-14 w-500 py-1 ellipsis-1">Parabolas in Symmetry </h2>
+                            <h2 class="f-12 w-500 ellipsis-1">306K Views</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-10 col-12 mx-auto mb-3">
+                        <div class="doc-img">
+                            <a href="document.html" class="no-decoration">
+                                <img src="assets/images/adobe pdf 1.png" alt="" class="">
+                            </a>
+                            <div class="menu-icon">
+                                <div class="dropdown ">
+                                    <button type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        <i class="bi bi-three-dots-vertical text-dark"></i>
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                                        <li class="text-center p-0"><a
+                                                class="dropdown-item text-center w-100 p-0">Delete</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center px-1 mb-2 pt-1">
+                            <h2 class="f-14 w-500 py-1 ellipsis-1">Parabolas in Symmetry </h2>
+                            <h2 class="f-12 w-500 ellipsis-1">306K Views</h2>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-10 col-12 mx-auto mb-3 ">
+                        <a class="no-decoration">
+                            <!-- <div class="main-video-div">
+                                <video width="100%" class="main-video" id="video2">
+                                    <source src="assets/images/video/Download the Best Free Nature Videos_2.mp4"
+                                        type="video/mp4">
+                                </video>
+                                <div class="play-btn-div2">
+                                    <div class="play-btn2">
+                                    </div>
+                                </div>
+                                <div class="pause-btn-div2">
+                                    <div class="pause-btn2">
+                                    </div>
+                                </div>
+                            </div> -->
+                            <div class="main-img w-100">
+                                <a href="chat.html" class="no-decoration">
+                                    <img src="assets/images/8.jfif" alt="" class="w-100">
+                                </a>
+                                <div class="menu-icon">
+                                    <div class="dropdown ">
+                                        <button type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            <i class="bi bi-three-dots-vertical text-white"></i>
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                                            <li class="text-center p-0"><a
+                                                    class="dropdown-item text-center w-100 p-0">Delete</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                             <div class="d-flex justify-content-between align-items-center px-1 mb-2">
                                 <h2 class="f-14 w-500  ellipsis-1 pt-0 mt-0">Parabolas in Symmetry </h2>
-                                <h2 class="f-12 w-500  pb-0 pt-0 mt-0 ellipsis-1" >306K Views</h2>
+                                <h2 class="f-12 w-500  pb-0 pt-0 mt-0 ellipsis-1">306K Views</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-10 col-12 mx-auto mb-3 ">
+                        <a class="no-decoration">
+                            <!-- <div class="main-video-div">
+                                <video width="100%" class="main-video" id="video2">
+                                    <source src="assets/images/video/Download the Best Free Nature Videos_2.mp4"
+                                        type="video/mp4">
+                                </video>
+                                <div class="play-btn-div2">
+                                    <div class="play-btn2">
+                                    </div>
+                                </div>
+                                <div class="pause-btn-div2">
+                                    <div class="pause-btn2">
+                                    </div>
+                                </div>
+                            </div> -->
+                            <div class="main-img w-100">
+                                <a href="chat.html" class="no-decoration">
+                                    <img src="assets/images/10.jfif" alt="" class="w-100">
+                                </a>
+                                <div class="menu-icon">
+                                    <div class="dropdown ">
+                                        <button type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            <i class="bi bi-three-dots-vertical text-white"></i>
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                                            <li class="text-center p-0"><a
+                                                    class="dropdown-item text-center w-100 p-0">Delete</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center px-1 mb-2">
+                                <h2 class="f-14 w-500  ellipsis-1 pt-0 mt-0">Parabolas in Symmetry </h2>
+                                <h2 class="f-12 w-500  pb-0 pt-0 mt-0 ellipsis-1">306K Views</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-10 col-12 mx-auto mb-3 ">
+                        <a class="no-decoration">
+                            <!-- <div class="main-video-div">
+                                <video width="100%" class="main-video" id="video2">
+                                    <source src="assets/images/video/Download the Best Free Nature Videos_2.mp4"
+                                        type="video/mp4">
+                                </video>
+                                <div class="play-btn-div2">
+                                    <div class="play-btn2">
+                                    </div>
+                                </div>
+                                <div class="pause-btn-div2">
+                                    <div class="pause-btn2">
+                                    </div>
+                                </div>
+                            </div> -->
+                            <div class="main-img w-100">
+                                <a href="chat.html" class="no-decoration">
+                                    <img src="assets/images/9.jfif" alt="" class="w-100">
+                                </a>
+                                <div class="menu-icon">
+                                    <div class="dropdown ">
+                                        <button type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            <i class="bi bi-three-dots-vertical text-white"></i>
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                                            <li class="text-center p-0"><a
+                                                    class="dropdown-item text-center w-100 p-0">Delete</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center px-1 mb-2">
+                                <h2 class="f-14 w-500  ellipsis-1 pt-0 mt-0">Parabolas in Symmetry </h2>
+                                <h2 class="f-12 w-500  pb-0 pt-0 mt-0 ellipsis-1">306K Views</h2>
                             </div>
                         </a>
                     </div>
 
                     <div class="col-lg-4 col-md-6 col-sm-10 col-12 mx-auto mb-3">
-                        <a href="document.html" class="no-decoration">
-                            <div class="doc-img ">
+                        <div class="doc-img">
+                            <a href="document.html" class="no-decoration">
                                 <img src="assets/images/adobe pdf 1.png" alt="" class="">
+                            </a>
+                            <div class="menu-icon">
+                                <div class="dropdown ">
+                                    <button type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        <i class="bi bi-three-dots-vertical text-dark"></i>
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                                        <li class="text-center p-0"><a
+                                                class="dropdown-item text-center w-100 p-0">Delete</a></li>
+                                    </ul>
+                                </div>
                             </div>
-                            <div class="d-flex justify-content-between align-items-center px-1 mb-2 pt-1">
-                                <h2 class="f-14 w-500 py-1 ellipsis-1">Parabolas in Symmetry </h2>
-                                <h2 class="f-12 w-500 ellipsis-1">306K Views</h2>
-                            </div>
-                        </a>
+
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center px-1 mb-2 pt-1">
+                            <h2 class="f-14 w-500 py-1 ellipsis-1">Parabolas in Symmetry </h2>
+                            <h2 class="f-12 w-500 ellipsis-1">306K Views</h2>
+                        </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-10 col-12 mx-auto mb-3">
-                        <a href="document.html" class="no-decoration">
-                            <div class="doc-img ">
+                        <div class="doc-img">
+                            <a href="document.html" class="no-decoration">
                                 <img src="assets/images/adobe pdf 1.png" alt="" class="">
+                            </a>
+                            <div class="menu-icon">
+                                <div class="dropdown ">
+                                    <button type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        <i class="bi bi-three-dots-vertical text-dark"></i>
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                                        <li class="text-center p-0"><a
+                                                class="dropdown-item text-center w-100 p-0">Delete</a></li>
+                                    </ul>
+                                </div>
                             </div>
-                            <div class="d-flex justify-content-between align-items-center px-1 mb-2 pt-1">
-                                <h2 class="f-14 w-500 py-1 ellipsis-1">Parabolas in Symmetry </h2>
-                                <h2 class="f-12 w-500 ellipsis-1">306K Views</h2>
-                            </div>
-                        </a>
+
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center px-1 mb-2 pt-1">
+                            <h2 class="f-14 w-500 py-1 ellipsis-1">Parabolas in Symmetry </h2>
+                            <h2 class="f-12 w-500 ellipsis-1">306K Views</h2>
+                        </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-10 col-12 mx-auto mb-3">
-                        <a href="document.html" class="no-decoration">
-                            <div class="doc-img ">
+                        <div class="doc-img">
+                            <a href="document.html" class="no-decoration">
                                 <img src="assets/images/adobe pdf 1.png" alt="" class="">
+                            </a>
+                            <div class="menu-icon">
+                                <div class="dropdown ">
+                                    <button type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        <i class="bi bi-three-dots-vertical text-dark"></i>
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                                        <li class="text-center p-0"><a
+                                                class="dropdown-item text-center w-100 p-0">Delete</a></li>
+                                    </ul>
+                                </div>
                             </div>
-                            <div class="d-flex justify-content-between align-items-center px-1 mb-2 pt-1">
-                                <h2 class="f-14 w-500 py-1 ellipsis-1">Parabolas in Symmetry </h2>
-                                <h2 class="f-12 w-500 ellipsis-1">306K Views</h2>
-                            </div>
-                        </a>
+
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center px-1 mb-2 pt-1">
+                            <h2 class="f-14 w-500 py-1 ellipsis-1">Parabolas in Symmetry </h2>
+                            <h2 class="f-12 w-500 ellipsis-1">306K Views</h2>
+                        </div>
                     </div>
 
                 </div>
@@ -468,13 +665,13 @@
             </div>
 
         </div>
-      
+
         <div class="fixed-btns">
             <button class="mb-2 " type="button" data-bs-toggle="modal" data-bs-target="#createGroup"><img
-                src="assets/images/add-group.png" alt=""> Create Group</button>
-        <button class="mb-2" type="button" data-bs-toggle="modal" data-bs-target="#Groups"><img
-                src="assets/images/group.png" alt="">Groups</button>
-        <button type="button" data-bs-toggle="modal" data-bs-target="#leaveGroup"><img
+                    src="assets/images/add-group.png" alt=""> Create Group</button>
+            <button class="mb-2" type="button" data-bs-toggle="modal" data-bs-target="#Groups"><img
+                    src="assets/images/group.png" alt="">Groups</button>
+            <button type="button" data-bs-toggle="modal" data-bs-target="#leaveGroup"><img
                     src="assets/images/del-group.png" alt="">Leave Group</button>
             <!-- <button class="mb-2 " type="button" data-bs-toggle="modal" data-bs-target="#addPeer"><img
                     src="assets/images/user (1).png" alt="">Add Peer</button>
@@ -486,7 +683,7 @@
                     src="assets/images/del-group.png" alt="">Delete Group</button> -->
         </div>
     </main>
-     <!-- <div class="contact-icon">
+    <!-- <div class="contact-icon">
         <a href="contact.html" class="no-decoration">
          <i class="bi bi-chat-dots-fill"></i>
         </a>
@@ -524,7 +721,7 @@
                                         recusandae tempore repudiandae?</p>
                                     <div class="message-number ms-2">15</div>
                                 </div>
-    
+
                             </div>
                         </div>
                     </a>
@@ -545,7 +742,7 @@
                                         recusandae tempore repudiandae?</p>
                                     <div class="message-number ms-2">15</div>
                                 </div>
-    
+
                             </div>
                         </div>
                     </a>
@@ -566,7 +763,7 @@
                                         recusandae tempore repudiandae?</p>
                                     <div class="message-number ms-2">15</div>
                                 </div>
-    
+
                             </div>
                         </div>
                     </a>
@@ -586,15 +783,15 @@
                                         itaque at asperiores, et odio deserunt facere doloremque
                                         recusandae tempore repudiandae?</p>
                                 </div>
-    
+
                             </div>
                         </div>
                     </a>
-                    
-                    
-                  
+
+
+
                 </div>
-          
+
             </div>
         </div>
     </div>
@@ -991,7 +1188,7 @@
         </div>
     </div>
     <!-- Modal -->
-      <div class="modal fade" id="deleteGroup" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="deleteGroup" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog  modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content ">
                 <div class="modal-header text-center">
@@ -1061,8 +1258,8 @@
             </div>
         </div>
     </div>
-     <!-- Modal -->
-     <div class="modal fade" id="leaveGroup" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <!-- Modal -->
+    <div class="modal fade" id="leaveGroup" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog  modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content ">
                 <div class="modal-header text-center">
@@ -1126,8 +1323,7 @@
                     </div>
                 </div>
                 <div class="modal-footer d-flex justify-content-center">
-                    <button type="button" class="btn px-5 "
-                        data-bs-dismiss="modal">Leave</button>
+                    <button type="button" class="btn px-5 " data-bs-dismiss="modal">Leave</button>
                 </div>
             </div>
         </div>
@@ -1141,7 +1337,7 @@
                             class="bi bi-x-lg"></i></button>
                 </div>
                 <div class="modal-body">
-                    <p class="text-center second-heading mb-0 pb-0">You don't have any peers to create a group 
+                    <p class="text-center second-heading mb-0 pb-0">You don't have any peers to create a group
                         add at least 1 peer to create a group</p>
 
                 </div>
@@ -1149,11 +1345,11 @@
             </div>
         </div>
     </div>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
     <script src="assets/js/app.js"></script>
 </body>
 

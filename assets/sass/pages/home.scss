@@ -1,4 +1,267 @@
+.main-img-full{
+    object-fit: cover;
+    position: relative;
+    .menu-icon{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        z-index: 100;
+        
+        color: white;
+    
+        .dropdown{
+            position: relative !important;
+        }
+        .dropdown-menu{
+            cursor: pointer;
+            background-color:$grey-cream;
+            width: 100px !important;
+            border: none !important;
+            margin: 0px !important;
+            position: absolute !important;
+            top: 33px !important;
+            left: -123px !important;
+            border: 1px solid $grey-cream;
+            border-radius: 3px !important;
+            transform: none !important;
+           li{
+            margin: 0px !important;
+            padding: 0px !important;
+            .dropdown-item{
+                cursor: pointer !important;
+                
+            }
+           }
+        }
+        button{
+            background-color: transparent;
+            border: none;
+            padding: none;
+            font-size: 25px;
+            &:hover,
+            &:focus{
+                background-color: transparent;
+                border: none;
+                box-shadow: none;
+                color: white;
+            }
+            @media only screen and (max-width:500px){
+                font-size: 20px !important;
+              }
+            
+        }
+        
+    }
+}
 
+.main-img {
+    height: 200px;
+    position: relative;
+    @media only screen and (max-width:767px){
+        height: auto;
+    }
+    a{
+        object-fit: cover;
+        img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+    .menu-icon{
+        position: absolute;
+        top: 10px;
+        right: 5px;
+        z-index: 100;
+        
+        color: white;
+    
+        .dropdown{
+            position: relative !important;
+        }
+        .dropdown-menu{
+            cursor: pointer;
+            background-color:$grey-cream;
+            width: 100px !important;
+            border: none !important;
+            margin: 0px !important;
+            position: absolute !important;
+            top: 33px !important;
+            left: -123px !important;
+            border: 1px solid $grey-cream;
+            border-radius: 3px !important;
+            transform: none !important;
+           li{
+            margin: 0px !important;
+            padding: 0px !important;
+            .dropdown-item{
+                cursor: pointer !important;
+                
+            }
+           }
+        }
+        button{
+            background-color: transparent;
+            border: none;
+            padding: none;
+            font-size: 25px;
+            &:hover,
+            &:focus{
+                background-color: transparent;
+                border: none;
+                box-shadow: none;
+                color: white;
+            }
+            @media only screen and (max-width:500px){
+                font-size: 20px !important;
+              }
+            
+        }
+        
+    }
+}
+.main-img-xsm {
+    height: 200px;
+    position: relative;
+    @media only screen and (max-width:767px){
+        height:80px;
+    }
+    a{
+        object-fit: cover;
+        img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+    .menu-icon{
+        position: absolute;
+        top: 10px;
+        right: 5px;
+        z-index: 100;
+        
+        color: white;
+    
+        .dropdown{
+            position: relative !important;
+        }
+        .dropdown-menu{
+            cursor: pointer;
+            background-color:$grey-cream;
+            width: 100px !important;
+            border: none !important;
+            margin: 0px !important;
+            position: absolute !important;
+            top: 33px !important;
+            left: -123px !important;
+            border: 1px solid $grey-cream;
+            border-radius: 3px !important;
+            transform: none !important;
+           li{
+            margin: 0px !important;
+            padding: 0px !important;
+            .dropdown-item{
+                cursor: pointer !important;
+                
+            }
+           }
+        }
+        button{
+            background-color: transparent;
+            border: none;
+            padding: none;
+            font-size: 25px;
+            &:hover,
+            &:focus{
+                background-color: transparent;
+                border: none;
+                box-shadow: none;
+                color: white;
+            }
+            @media only screen and (max-width:500px){
+                font-size: 20px !important;
+              }
+            
+        }
+        
+    }
+}
+.main-img-sm{
+    height: 150px;
+    position: relative;
+    background-color: #F8F8F8;
+    @media only screen and (max-width:767px){
+        height: auto;
+    }
+    a{
+        object-fit: cover;
+        img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+    .menu-icon{
+        position: absolute;
+        top: 10px;
+        right: 5px;
+        z-index: 100;
+        
+        color: white;
+    
+        .dropdown{
+            position: relative !important;
+        }
+        .dropdown-menu{
+            cursor: pointer;
+            background-color:$grey-cream;
+            width: 100px !important;
+            border: none !important;
+            margin: 0px !important;
+            position: absolute !important;
+            top: 33px !important;
+            left: -123px !important;
+            border: 1px solid $grey-cream;
+            border-radius: 3px !important;
+            transform: none !important;
+           li{
+            margin: 0px !important;
+            padding: 0px !important;
+            .dropdown-item{
+                cursor: pointer !important;
+                
+            }
+           }
+        }
+        button{
+            background-color: transparent;
+            border: none;
+            padding: none;
+            font-size: 25px;
+            &:hover,
+            &:focus{
+                background-color: transparent;
+                border: none;
+                box-shadow: none;
+                color: white;
+            }
+            @media only screen and (max-width:500px){
+                font-size: 20px !important;
+              }
+            
+        }
+        
+    }
+}
+.menu-icon-result{
+     @media only screen and (max-width:500px){
+        position: absolute;
+        top: 0px !important;
+        right: -5px !important;
+     }
+     button{
+        @media only screen and (max-width:500px){
+           font-size: 20px !important;
+         }
+     }
+}
 .main-video {
     border-radius: 3px;
     border: 2px solid $light-grey;
@@ -143,12 +406,145 @@
     border-width: 0px 0 0px 40px;
 }
 .doc-img{
-    height: auto;
-    width: 100%;
-    object-fit: cover;
-    img{
-        height: 100%;
-        width: 100%;
+    position: relative;
+    background-color: #F8F8F8;
+    height: 180px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media only screen and (max-width:767px){
+        height: auto;
+        min-height: 81px;
+    }
+    a{
+        object-fit: contain;
+        img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+    .menu-icon{
+        position: absolute;
+        top: 10px;
+        right: 5px;
+        z-index: 100;
+        
+        color: white;
+    
+        .dropdown{
+            position: relative !important;
+        }
+        .dropdown-menu{
+            cursor: pointer;
+            background-color:$grey-bg;
+            width: 100px !important;
+            border: none !important;
+            margin: 0px !important;
+            position: absolute !important;
+            top: 33px !important;
+            left: -123px !important;
+            border: 1px solid $grey-cream;
+            border-radius: 3px !important;
+            transform: none !important;
+           li{
+            margin: 0px !important;
+            padding: 0px !important;
+            .dropdown-item{
+                cursor: pointer !important;
+                
+            }
+           }
+        }
+        button{
+            background-color: transparent;
+            border: none;
+            padding: none;
+            font-size: 25px;
+            &:hover,
+            &:focus{
+                background-color: transparent;
+                border: none;
+                box-shadow: none;
+                color: white;
+            }
+            @media only screen and (max-width:500px){
+                font-size: 20px !important;
+              }
+        }
+        
+    }
+}
+.doc-img-sm{
+    position: relative;
+    background-color: #F8F8F8;
+    height: 150px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media only screen and (max-width:767px){
+        height: auto;
+    }
+    a{
+        object-fit: contain;
+        img{
+  
+            object-fit: contain;
+        }
+    }
+    .menu-icon{
+        position: absolute;
+        top: 10px;
+        right: 5px;
+        z-index: 100;
+        
+        color: white;
+    
+        .dropdown{
+            position: relative !important;
+        }
+        .dropdown-menu{
+            cursor: pointer;
+            background-color:$grey-bg;
+            width: 100px !important;
+            border: none !important;
+            margin: 0px !important;
+            position: absolute !important;
+            top: 33px !important;
+            left: -123px !important;
+            border: 1px solid $grey-cream;
+            border-radius: 3px !important;
+            transform: none !important;
+           li{
+            margin: 0px !important;
+            padding: 0px !important;
+            .dropdown-item{
+                cursor: pointer !important;
+                
+            }
+           }
+        }
+        button{
+            background-color: transparent;
+            border: none;
+            padding: none;
+            font-size: 25px;
+            &:hover,
+            &:focus{
+                background-color: transparent;
+                border: none;
+                box-shadow: none;
+                color: white;
+            }
+            @media only screen and (max-width:500px){
+                font-size: 20px !important;
+              }
+        }
+        
     }
 }
 .verification-message-left{

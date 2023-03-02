@@ -496,6 +496,209 @@ body {
       left: 0 !important;
       text-align: center; } }
 
+.main-img-full {
+  object-fit: cover;
+  position: relative; }
+  .main-img-full .menu-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 100;
+    color: white; }
+    .main-img-full .menu-icon .dropdown {
+      position: relative !important; }
+    .main-img-full .menu-icon .dropdown-menu {
+      cursor: pointer;
+      background-color: #F7F7F7;
+      width: 100px !important;
+      border: none !important;
+      margin: 0px !important;
+      position: absolute !important;
+      top: 33px !important;
+      left: -123px !important;
+      border: 1px solid #F7F7F7;
+      border-radius: 3px !important;
+      transform: none !important; }
+      .main-img-full .menu-icon .dropdown-menu li {
+        margin: 0px !important;
+        padding: 0px !important; }
+        .main-img-full .menu-icon .dropdown-menu li .dropdown-item {
+          cursor: pointer !important; }
+    .main-img-full .menu-icon button {
+      background-color: transparent;
+      border: none;
+      padding: none;
+      font-size: 25px; }
+      .main-img-full .menu-icon button:hover, .main-img-full .menu-icon button:focus {
+        background-color: transparent;
+        border: none;
+        box-shadow: none;
+        color: white; }
+      @media only screen and (max-width: 500px) {
+        .main-img-full .menu-icon button {
+          font-size: 20px !important; } }
+
+.main-img {
+  height: 200px;
+  position: relative; }
+  @media only screen and (max-width: 767px) {
+    .main-img {
+      height: auto; } }
+  .main-img a {
+    object-fit: cover; }
+    .main-img a img {
+      height: 100%;
+      width: 100%; }
+  .main-img .menu-icon {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    z-index: 100;
+    color: white; }
+    .main-img .menu-icon .dropdown {
+      position: relative !important; }
+    .main-img .menu-icon .dropdown-menu {
+      cursor: pointer;
+      background-color: #F7F7F7;
+      width: 100px !important;
+      border: none !important;
+      margin: 0px !important;
+      position: absolute !important;
+      top: 33px !important;
+      left: -123px !important;
+      border: 1px solid #F7F7F7;
+      border-radius: 3px !important;
+      transform: none !important; }
+      .main-img .menu-icon .dropdown-menu li {
+        margin: 0px !important;
+        padding: 0px !important; }
+        .main-img .menu-icon .dropdown-menu li .dropdown-item {
+          cursor: pointer !important; }
+    .main-img .menu-icon button {
+      background-color: transparent;
+      border: none;
+      padding: none;
+      font-size: 25px; }
+      .main-img .menu-icon button:hover, .main-img .menu-icon button:focus {
+        background-color: transparent;
+        border: none;
+        box-shadow: none;
+        color: white; }
+      @media only screen and (max-width: 500px) {
+        .main-img .menu-icon button {
+          font-size: 20px !important; } }
+
+.main-img-xsm {
+  height: 200px;
+  position: relative; }
+  @media only screen and (max-width: 767px) {
+    .main-img-xsm {
+      height: 80px; } }
+  .main-img-xsm a {
+    object-fit: cover; }
+    .main-img-xsm a img {
+      height: 100%;
+      width: 100%; }
+  .main-img-xsm .menu-icon {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    z-index: 100;
+    color: white; }
+    .main-img-xsm .menu-icon .dropdown {
+      position: relative !important; }
+    .main-img-xsm .menu-icon .dropdown-menu {
+      cursor: pointer;
+      background-color: #F7F7F7;
+      width: 100px !important;
+      border: none !important;
+      margin: 0px !important;
+      position: absolute !important;
+      top: 33px !important;
+      left: -123px !important;
+      border: 1px solid #F7F7F7;
+      border-radius: 3px !important;
+      transform: none !important; }
+      .main-img-xsm .menu-icon .dropdown-menu li {
+        margin: 0px !important;
+        padding: 0px !important; }
+        .main-img-xsm .menu-icon .dropdown-menu li .dropdown-item {
+          cursor: pointer !important; }
+    .main-img-xsm .menu-icon button {
+      background-color: transparent;
+      border: none;
+      padding: none;
+      font-size: 25px; }
+      .main-img-xsm .menu-icon button:hover, .main-img-xsm .menu-icon button:focus {
+        background-color: transparent;
+        border: none;
+        box-shadow: none;
+        color: white; }
+      @media only screen and (max-width: 500px) {
+        .main-img-xsm .menu-icon button {
+          font-size: 20px !important; } }
+
+.main-img-sm {
+  height: 150px;
+  position: relative;
+  background-color: #F8F8F8; }
+  @media only screen and (max-width: 767px) {
+    .main-img-sm {
+      height: auto; } }
+  .main-img-sm a {
+    object-fit: cover; }
+    .main-img-sm a img {
+      height: 100%;
+      width: 100%; }
+  .main-img-sm .menu-icon {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    z-index: 100;
+    color: white; }
+    .main-img-sm .menu-icon .dropdown {
+      position: relative !important; }
+    .main-img-sm .menu-icon .dropdown-menu {
+      cursor: pointer;
+      background-color: #F7F7F7;
+      width: 100px !important;
+      border: none !important;
+      margin: 0px !important;
+      position: absolute !important;
+      top: 33px !important;
+      left: -123px !important;
+      border: 1px solid #F7F7F7;
+      border-radius: 3px !important;
+      transform: none !important; }
+      .main-img-sm .menu-icon .dropdown-menu li {
+        margin: 0px !important;
+        padding: 0px !important; }
+        .main-img-sm .menu-icon .dropdown-menu li .dropdown-item {
+          cursor: pointer !important; }
+    .main-img-sm .menu-icon button {
+      background-color: transparent;
+      border: none;
+      padding: none;
+      font-size: 25px; }
+      .main-img-sm .menu-icon button:hover, .main-img-sm .menu-icon button:focus {
+        background-color: transparent;
+        border: none;
+        box-shadow: none;
+        color: white; }
+      @media only screen and (max-width: 500px) {
+        .main-img-sm .menu-icon button {
+          font-size: 20px !important; } }
+
+@media only screen and (max-width: 500px) {
+  .menu-icon-result {
+    position: absolute;
+    top: 0px !important;
+    right: -5px !important; } }
+
+@media only screen and (max-width: 500px) {
+  .menu-icon-result button {
+    font-size: 20px !important; } }
+
 .main-video {
   border-radius: 3px;
   border: 2px solid #AAA5A5;
@@ -619,12 +822,116 @@ body {
   border-width: 0px 0 0px 40px; }
 
 .doc-img {
-  height: auto;
-  width: 100%;
-  object-fit: cover; }
-  .doc-img img {
-    height: 100%;
-    width: 100%; }
+  position: relative;
+  background-color: #F8F8F8;
+  height: 180px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  @media only screen and (max-width: 767px) {
+    .doc-img {
+      height: auto;
+      min-height: 81px; } }
+  .doc-img a {
+    object-fit: contain; }
+    .doc-img a img {
+      height: 100%;
+      width: 100%; }
+  .doc-img .menu-icon {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    z-index: 100;
+    color: white; }
+    .doc-img .menu-icon .dropdown {
+      position: relative !important; }
+    .doc-img .menu-icon .dropdown-menu {
+      cursor: pointer;
+      background-color: #E6EBF1;
+      width: 100px !important;
+      border: none !important;
+      margin: 0px !important;
+      position: absolute !important;
+      top: 33px !important;
+      left: -123px !important;
+      border: 1px solid #F7F7F7;
+      border-radius: 3px !important;
+      transform: none !important; }
+      .doc-img .menu-icon .dropdown-menu li {
+        margin: 0px !important;
+        padding: 0px !important; }
+        .doc-img .menu-icon .dropdown-menu li .dropdown-item {
+          cursor: pointer !important; }
+    .doc-img .menu-icon button {
+      background-color: transparent;
+      border: none;
+      padding: none;
+      font-size: 25px; }
+      .doc-img .menu-icon button:hover, .doc-img .menu-icon button:focus {
+        background-color: transparent;
+        border: none;
+        box-shadow: none;
+        color: white; }
+      @media only screen and (max-width: 500px) {
+        .doc-img .menu-icon button {
+          font-size: 20px !important; } }
+
+.doc-img-sm {
+  position: relative;
+  background-color: #F8F8F8;
+  height: 150px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  @media only screen and (max-width: 767px) {
+    .doc-img-sm {
+      height: auto; } }
+  .doc-img-sm a {
+    object-fit: contain; }
+    .doc-img-sm a img {
+      object-fit: contain; }
+  .doc-img-sm .menu-icon {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    z-index: 100;
+    color: white; }
+    .doc-img-sm .menu-icon .dropdown {
+      position: relative !important; }
+    .doc-img-sm .menu-icon .dropdown-menu {
+      cursor: pointer;
+      background-color: #E6EBF1;
+      width: 100px !important;
+      border: none !important;
+      margin: 0px !important;
+      position: absolute !important;
+      top: 33px !important;
+      left: -123px !important;
+      border: 1px solid #F7F7F7;
+      border-radius: 3px !important;
+      transform: none !important; }
+      .doc-img-sm .menu-icon .dropdown-menu li {
+        margin: 0px !important;
+        padding: 0px !important; }
+        .doc-img-sm .menu-icon .dropdown-menu li .dropdown-item {
+          cursor: pointer !important; }
+    .doc-img-sm .menu-icon button {
+      background-color: transparent;
+      border: none;
+      padding: none;
+      font-size: 25px; }
+      .doc-img-sm .menu-icon button:hover, .doc-img-sm .menu-icon button:focus {
+        background-color: transparent;
+        border: none;
+        box-shadow: none;
+        color: white; }
+      @media only screen and (max-width: 500px) {
+        .doc-img-sm .menu-icon button {
+          font-size: 20px !important; } }
 
 .verification-message-left {
   position: fixed;
@@ -1100,7 +1407,7 @@ body {
     border: 1px solid #F7F7F7; }
 
 .peer-chats {
-  max-height: calc(100vh - 285px);
+  max-height: calc(100vh - 355px);
   overflow: hidden;
   overflow-y: auto;
   padding: 0px; }
