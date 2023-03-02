@@ -1257,7 +1257,8 @@ body {
     .add-message textarea:focus {
       outline: none; }
 
-.emojionearea, .emojionearea.form-control {
+.emojionearea,
+.emojionearea.form-control {
   border: none !important;
   box-shadow: none !important; }
 
@@ -1272,7 +1273,8 @@ body {
 .emojionearea .emojionearea-picker .emojionearea-filters {
   right: 0px !important; }
 
-.emojionearea .emojionearea-button > div, .emojionearea .emojionearea-picker .emojionearea-wrapper:after {
+.emojionearea .emojionearea-button > div,
+.emojionearea .emojionearea-picker .emojionearea-wrapper:after {
   object-fit: cover;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -1345,7 +1347,8 @@ body {
 .img-zone h2 {
   margin-top: 0; }
 
-.progress, #img-preview {
+.progress,
+#img-preview {
   margin-top: 15px; }
 
 .progress-bar {
@@ -1487,7 +1490,7 @@ body {
 
 .chat-peer-messages--box {
   position: relative;
-  margin: 10px  0px 0px 0px;
+  margin: 10px 0px 0px 0px;
   border: 1px solid #DBE5ED;
   border-radius: 10px;
   overflow: hidden;
@@ -1530,7 +1533,7 @@ body {
       color: #707070; }
   .chat-peer-messages--box .message-body {
     background-color: #F9FAFC;
-    padding: 20px  15px 0px 15px;
+    padding: 20px 15px 0px 15px;
     height: calc(100vh - 213px);
     overflow-y: scroll;
     border-left: 2px solid #F7F7F7; }
